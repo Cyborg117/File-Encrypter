@@ -107,6 +107,7 @@ def features():
 root=Tk()
 root.title("File Encrypter v1.0.0")
 root.iconbitmap("lock.ico")
+root.resizable(False,False)
 
 mainframe=ttk.Frame(root,padding='3 3 12 12')
 mainframe.pack(fill="both",expand="yes")
